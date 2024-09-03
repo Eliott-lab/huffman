@@ -137,7 +137,7 @@ def listing(sentence:str)->list[feuille]:
         list_of_char.append(feuille(char,occurrence))
     return list_of_char
 
-def new_list(list_of_char:list)->list:
+def  new_list(list_of_char: list[str]) -> list[str]:
     """
     prend les deux noeud avec le poids le plus faible pour en faire un nouveau
     
